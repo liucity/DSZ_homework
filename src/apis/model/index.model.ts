@@ -1,5 +1,3 @@
-import { Result } from './base.model';
-
 export interface AuthReqData {
   email: string;
   password: string;
