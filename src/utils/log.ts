@@ -3,6 +3,7 @@ function report(type: string, msg: ReportMsg){
   if(type == null && msg == null) 
     return;
 
+  // @ts-ignore
   var reportData = {
     type,
     time: Date.now(),
